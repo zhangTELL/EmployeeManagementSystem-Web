@@ -1,0 +1,74 @@
+职工管理系统
+大一 C++ 课程设计项目
+
+一个基于 C++ 面向对象编程和文件存储的职工信息管理系统。
+
+功能特性
+增 - 添加新职工信息
+删 - 删除指定职工
+改 - 修改职工信息（ID、姓名、职位）
+查 - 按 ID 查找职工
+排 - 按编号升序/降序排序
+存 - 文件持久化存储
+清 - 清空所有数据
+技术要点
+多态 - 抽象基类 Worker + 派生类 Employee/Manager/Boss
+Polymorphism - Abstract Base Class < b0> < /b0> Derived class < b1> < /b1> /< b2> < /b2> /< b3> < /b3>
+虚函数 - ShowInfo() 和 GetDeptID() 实现运行时多态
+Virtual Function - < b0> < /b0> and < b1> < /b1> Realize runtime polymorphism
+文件 IO - fstream 实现数据持久化
+动态数组 - 指针数组管理职工对象
+STL - std::sort + Lambda 实现排序
+STL - < b0> < /b0> Lambda implementation of sorting
+项目结构
+.
+├── worker.h              # 职工抽象基类
+├── workerManager.h/cpp   # 管理系统类
+├── employee.h/cpp        # 普通员工类
+├── manager.h/cpp         # 经理类
+├── boss.h/cpp            # 老板类
+├── main.cpp              # 程序入口
+└── CMakeLists.txt        # CMake 构建配置
+编译运行
+使用 Visual Studio
+打开 职工管理系统.slnx 解决方案
+按 F5 编译运行
+使用 CMake
+mkdir build
+cd build
+cmake ..
+cmake --build .
+./EmployeeManagementSystem
+使用 g++
+g++ -o emp main.cpp workerManager.cpp employee.cpp manager.cpp boss.cpp
+./emp
+使用说明
+启动后显示菜单：
+
+**************************************
+*******  欢迎使用职工管理系统  *******
+**********  0.退出管理程序  **********
+**********  1.增加职工信息  **********
+**********  2.显示职工信息  **********
+**********  3.删除职工信息  **********
+**********  4.修改职工信息  **********
+**********  5.查找职工信息  **********
+**********  6.按照编号排序  **********
+**********  7.清空所有信息  **********
+**************************************
+职位分为三种：
+
+1 - 员工
+2 - 经理
+3 - 总裁
+数据自动保存到 empFile.txt 文件中。
+
+学习收获
+深入理解 C++ 多态机制
+掌握虚函数和纯虚函数的使用
+熟悉文件读写操作
+理解动态内存管理
+练习 STL 容器和算法的使用
+作者
+大一学生练手项目
+代码风格：大括号换行党 😄

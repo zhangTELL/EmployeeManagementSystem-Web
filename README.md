@@ -2,9 +2,9 @@
 
 > 职工管理系统 Web 版 — Vibe Coding 演示
 
-这是我的大一 C++ 课程设计项目的 Web 版本。C++ 后端全部手写，而这个前端界面是通过 Vibe Coding（使用 WorkBuddy 辅助）生成的。
+这是我大一 C++ 课程设计项目的网页改版。后端逻辑由我纯手写 C++ 实现，前端界面则借助 Vibe Coding 搭配 WorkBuddy 快速搭建生成。
 
-项目的本意不是做一个多么完善的系统，而是想记录下这种转变——当你把需求描述清楚，AI 能多快地给你搭出一个能用的界面，而哪些东西又必须靠人自己把控。
+注：这个项目并非追求功能极致完善，而是希望记录一次开发模式的转变：只要需求描述足够清晰，AI 便能快速产出可直接使用的前端页面；但核心逻辑、底层架构与项目整体把控，依旧需要依靠人来主导实现。
 
 C++ 原版项目 👉 [EmployeeManagementSystem](https://github.com/zhangTELL/EmployeeManagementSystem)
 

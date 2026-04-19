@@ -1,0 +1,20 @@
+# Build outputs
+x64/
+Build/
+build/
+build2/
+cmake_test_build/
+
+# IDE
+.vs/
+.vscode/
+*.user
+*.suo
+*.ncb
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+
+# Cache
+.cache/

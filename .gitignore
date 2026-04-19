@@ -1,11 +1,9 @@
-# C++ 源码（已迁移到独立仓库）
-职工管理系统/
-
 # VS 解决方案文件
 *.slnx
 
 # 构建产物
 build/
+build2/
 x64/
 Debug/
 Release/
@@ -23,6 +21,11 @@ out/
 *.obj
 *.o
 *.pdb
+*.ilk
+*.lib
 
 # 数据文件
 empFile.txt
+
+# 杂项
+*.utf8

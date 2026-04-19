@@ -89,3 +89,5 @@ g++ -o emp main.cpp workerManager.cpp employee.cpp manager.cpp boss.cpp
 ## 作者
 
 大一学生练手项目 | 大括号换行党 😄
+
+PS：作者很菜，轻喷

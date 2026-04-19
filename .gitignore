@@ -1,20 +1,28 @@
-# Build outputs
-x64/
-Build/
+# C++ 源码（已迁移到独立仓库）
+职工管理系统/
+
+# VS 解决方案文件
+*.slnx
+
+# 构建产物
 build/
-build2/
-cmake_test_build/
+x64/
+Debug/
+Release/
+out/
 
 # IDE
 .vs/
 .vscode/
+.cache/
 *.user
 *.suo
-*.ncb
-*.sdf
-*.opensdf
-*.VC.db
-*.VC.opendb
 
-# Cache
-.cache/
+# 编译产物
+*.exe
+*.obj
+*.o
+*.pdb
+
+# 数据文件
+empFile.txt
